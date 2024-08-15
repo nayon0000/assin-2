@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-.color{
+@import url('https://fonts.cdnfonts.com/css/miama');
+.font{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    background-color: rgb(0, 0, 0);}
-
+    }
+.fonts{
+    font-family: 'Miama', sans-serif;
+    font-size: 7rem;
+    font-weight: 700;
+                                                
+}
 .color{
     background-color: rgb(0, 0, 0);
 }
@@ -73,8 +79,10 @@ margin-left:20%;
 
 }
 .header-2ndsec-h1{
-    font-size: 4rem;
+    font-size: 4.5rem;
     color: #fff;
+    margin-bottom: 10%;
+    
 }
 .head-s{
 
@@ -83,6 +91,8 @@ margin-left:20%;
     color: #ffff;
     font-size: 1rem;
     font-weight: 200;
+    margin-top: 0%;
+    margin-bottom: 5%;
 }
 .btn-2{
     padding: 16px 50px;
@@ -180,7 +190,7 @@ margin-left:20%;
 
     }
 
-    .s{
+    .b{
         display: none;
     }
     .btn-2{
@@ -488,7 +498,7 @@ padding-top: 5%;
     font-size: 1.4rem;
     font-weight: 300;
     text-align: center;
-    padding-top: 10px;
+    padding: 10px;
 }
 .sec-cre-h1{
     color: #000000;
@@ -531,6 +541,7 @@ padding-top: 5%;
     border-radius: 45px;
     border: none;
     text-align: center;
+    margin-top: 0%;
 }
 .btn-div{
     text-align: center;
@@ -548,7 +559,11 @@ padding-top: 5%;
     }
     .sec-cre{
         flex-direction: column;
+        margin-bottom: 0px;
         
+    }
+    .btn-div{
+        margin-top: 0px;
     }
     .sec-cre-div{
         gap: 60%;
@@ -567,6 +582,7 @@ padding-top: 5%;
     .span-1{
         display: none;
     }
+    
 }
 /* part4 */
 .part-4-h1{
